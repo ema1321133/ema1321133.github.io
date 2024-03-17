@@ -1,0 +1,803 @@
+@charset "UTF-8";
+
+body{
+  font-family: 'Zen Maru Gothic', sans-serif,'Raleway', sans-serif;
+  font-size: 0.85em;
+  color:#0433ff;
+  text-align:center;
+  margin:20px 30px;
+  background:#c8ccd0;
+  position: center;
+}
+
+
+
+a.btn_01 {
+  animation-name: fade;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+  position: fixed;
+  bottom: 140px;
+  right: 300px;
+  text-align: center;
+  line-height: 120px;
+  text-decoration: none;
+  width: 120px;
+  height: 120px;
+  font-family:'Raleway', sans-serif;
+  font-size:20px;
+  font-weight: bold;
+  background: #606060;
+  color: #fff;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+a.btn_01:hover {
+  color: #606060;
+  background: #ebebeb;
+}
+
+a.btn_02 {
+  animation-name: fade;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+  position: fixed;
+  bottom: 140px;
+  right: 200px;
+  text-align: center;
+  line-height: 120px;
+  text-decoration: none;
+  width: 120px;
+  height: 120px;
+  font-family:'Raleway', sans-serif;
+  font-size:20px;
+  font-weight: bold;
+  background: #606060;
+  color: #fff;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+a.btn_02:hover {
+  color: #606060;
+  background: #ebebeb;
+}
+
+a.btn_03 {
+  animation-name: fade;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+  position: fixed;
+  bottom: 140px;
+  right:100px;
+  text-align: center;
+  line-height: 120px;
+  text-decoration: none;
+  width: 120px;
+  height: 120px;
+  font-family:'Raleway', sans-serif;
+  font-size:20px;
+  font-weight: bold;
+  background: #606060;
+  color: #fff;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+a.btn_03:hover {
+  color: #606060;
+  background: #ebebeb;
+}
+
+
+
+#P1{
+  position: absolute;
+  z-index: 80;
+  max-width: 80ch;
+  font-family:'Zen Maru Gothic';
+  font-weight:bold;
+  line-height: 2;
+  margin-left: 440px;
+  padding-top:190px;
+  font-size:20px;
+  color:#ffffff;
+  animation-name: fadein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+
+  a.syu {
+  color: #a55e60;
+  }
+  a.syu:hover {
+    color: #606060;
+  }
+}
+
+
+
+#A1{
+  z-index: 80;
+  position: absolute;
+  max-width: 80ch;
+  font-family:'Zen Maru Gothic';
+  font-weight:bold;
+  line-height: 2;
+  margin-left: 440px;
+  padding-top:710px;
+  font-size:20px;
+  color:#ffffff;
+  animation-name: fadein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.ma{
+  color: #a55e60;
+}
+
+.ooo{
+  color: #ffffff;
+  background:linear-gradient(transparent 65%, #aaaaaa 10%);
+}
+
+#con{
+  z-index: 80;
+  position: absolute;
+  font-family:'Zen Maru Gothic';
+  font-weight:bold;
+  line-height: 2;
+  margin-left: 190px;
+  padding-top:260px;
+  font-size:22px;
+  color:#ffffff;
+  animation-name: fadein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.C{
+  color: #ffffff;
+  background:linear-gradient(transparent 65%, #aaaaaa 10%);
+}
+
+@keyframes fadein {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+p.name3 img{
+  animation-name: fade;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  position: absolute;
+  margin-left: 750px;
+  padding-top: 100px;
+  inset: 0;
+  width: 300px;
+}
+
+p.logo3 img{
+  z-index: 70;
+  opacity: 0.19;
+  position: absolute;
+  margin-left: 700px;
+  padding-top: 270px;
+  inset: 0;
+  width: 800px;
+}
+
+p.me img{
+  animation-name: fade;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  position: fixed;
+  margin: auto;
+  margin-bottom: -80px;
+  inset: 0;
+  width: 430px;
+}
+
+p.me2 img{
+  z-index: 95;
+  animation-name: fade;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  position:absolute;
+  top:-7em;
+  left:-14em;
+  width: 820px;
+}
+
+p.ma img{
+  position: fixed;
+  top:250px;
+  right:60px;
+  width: 500px;
+}
+
+p.ma2 img{
+  z-index: 90;
+  animation-name: fade;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  position: fixed;
+  top:250px;
+  right:60px;
+  width: 500px;
+}
+
+p.name img{
+  position: fixed;
+  top:360px;
+  right:70px;
+  width: 340px;
+}
+
+p.name2 img{
+  z-index: 90;
+  animation-name: fade;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  position: fixed;
+  top:361px;
+  right:70px;
+  width: 340px;
+}
+
+p.logo img{
+  position: fixed;
+  top:200px;
+  left:68px;
+  width: 410px;
+}
+
+p.logo2 img{
+  z-index: 90;
+  animation-name: fade;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  position: fixed;
+  top:200px;
+  left:68px;
+  width: 410px;
+}
+
+p.qr img{
+  z-index: 90;
+  animation-name: fade;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  position: fixed;
+  top:200px;
+  right: 60px;
+  width: 350px;
+  box-shadow: 15px 15px 0px 0 rgb(255, 255, 255,0.7);
+}
+
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+p.bg01 img{
+  position: fixed;
+  height: 100vh;
+  width: auto;
+  opacity: 0.2;
+  background-repeat: no-repeat;
+  margin-left: -55%;
+}
+
+ div.logo_header img{
+  z-index: 90;
+  animation-name: poyopoyo;
+  animation-duration: 5s;
+  animation-iteration-count:9999;
+  position:fixed;
+  z-index: 90;
+  top:1.3px;
+  right:35px;
+  width:40px;
+}
+
+@keyframes poyopoyo {
+60%, 40%, 60%, 80% {
+    transform: scale(1.0);
+  }
+50%, 70% {
+  transform: scale(0.90);
+}
+}
+
+.wrap {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 420px;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.slide {
+  margin-top:30px;
+  display: flex;
+  -webkit-animation: slide 100s infinite linear 1s both;
+  animation: slide 100s infinite linear 1s both;
+}
+
+@-webkit-keyframes slide {
+  from {
+    transform: translateX(13%);
+  }
+  to {
+    transform: translateX(-120%);
+  }
+}
+@keyframes slide {
+  from {
+    transform: translateX(13%);
+  }
+  to {
+    transform: translateX(-120%);
+  }
+}
+
+.slider:hover .slide {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.PIC {
+  background-size: cover;
+  margin-right: 10px;
+  transition: all 0.2s;
+  margin-bottom: 60px;
+}
+
+.PIC img{
+transition:0.5s all;
+}
+
+.PIC:hover {
+transition:0.5s all;
+transform: translateY(-20px);
+box-shadow: 0 3px 10px 0 #29292b;
+opacity: 1;
+cursor: pointer;
+}
+
+header {
+    position:fixed;
+    z-index: 99;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 44px;
+    background: #29292b;
+}
+
+p.a{
+  font-family: 'Raleway', sans-serif;
+  font-weight:bold;
+  padding-top:10px;
+  margin:auto;
+  font-size:18px;
+  color:#ffffff;
+}
+
+p.C1{
+  font-weight:bold;
+  padding-top:210px;
+  margin:auto;
+  font-size:28px;
+  color:#ffffff;
+  font-family:'Zen Maru Gothic';
+  animation-name: fadein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+p.C2{
+  font-weight:bold;
+  padding-top:320px;
+  margin:auto;
+  font-size:28px;
+  color:#ffffff;
+  font-family:'Zen Maru Gothic';
+  animation-name: fadein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+#nav-drawer {
+    position:fixed;
+    top:10px;
+    right:10px;
+}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+    display: none;
+}
+
+/*三本線アイコンのスペース*/
+#nav-open {
+    display: inline-block;
+    cursor: pointer;
+    width: 30px;
+    height: 22px;
+    vertical-align: middle;
+}
+
+/*三本線アイコンの形をCSSで表現*/
+#nav-open span,
+#nav-open span:before,
+#nav-open span:after {
+    position: absolute;
+    right: 0px;
+    height: 2px;    /*三本線の太さ*/
+    width: 25px;    /*三本線の長さ*/
+    border-radius: 3px;
+    background: #fff;
+    content: '';
+}
+
+#nav-open span:before { /*二本目の位置*/
+    bottom: -8px;
+}
+
+#nav-open span:after { /*三本目の位置*/
+    bottom: -16px;
+}
+
+/*閉じる用の箇所*/
+#nav-close {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    opacity: 0;
+    transition: .5s ease-in-out;
+}
+
+/*メニューの中身*/
+#nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    width: 90%;
+    max-width: 300px;   /*最大幅（調整する）*/
+    height: 100%;
+    background-image: url(image/bg02.JPG);
+    opacity: 1;
+    background-size: cover;
+    transition: .5s ease-in-out;
+    -webkit-transform: translateX(105%);
+    transform: translateX(105%);
+}
+
+/*チェックがついたら表示させる*/
+#nav-input:checked ~ #nav-close {
+    display: block;
+    opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    box-shadow: 6px 0 25px rgba(0, 0, 0, .15);
+}
+
+.header-logo-menu {
+    display: flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+}
+
+.category {
+    text-align: left;
+    margin-top: 2rem;   /*rem(root em) htmlのfont-sizeを基準*/
+    list-style: none;
+}
+
+.category-title {
+    padding: 0.5rem;
+}
+
+.category-title a {
+    color: #000;
+    text-decoration: none;
+}
+
+/*ロゴやサイトタイトルをセンタリング*/
+.logo {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+#aaa {
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    text-decoration: none;
+    position: center;
+    margin:5em;
+}
+
+#aaa:link{
+  color: #ffffff;
+}
+#aaa:visited{
+  color:#eae8eb;
+}
+#aaa:hover{
+  letter-spacing: 0.20em;
+}
+
+#bbb {
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    text-decoration: none;
+    position: center;
+    margin:5em;
+}
+
+#bbb:link{
+  color: #ffffff;
+}
+#bbb:visited{
+  color:#eae8eb;
+}
+#bbb:hover{
+  letter-spacing: 0.20em;
+}
+
+#ccc {
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    text-decoration: none;
+    position: center;
+    margin:5em;
+}
+
+#ccc:link{
+  color: #ffffff;
+}
+#ccc:visited{
+  color:#eae8eb;
+}
+#ccc:hover{
+  letter-spacing: 0.20em;
+}
+
+#ccc2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    text-decoration: none;
+    position: center;
+    margin:5em;
+}
+
+#ccc2:link{
+  color: #ffffff;
+}
+#ccc2:visited{
+  color:#eae8eb;
+}
+#ccc2:hover{
+  letter-spacing: 0.20em;
+}
+
+#ddd {
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    text-decoration: none;
+    position: center;
+    margin:5em;
+}
+
+#ddd:link{
+  color: #ffffff;
+}
+#ddd:visited{
+  color:#eae8eb;
+}
+#ddd:hover{
+  letter-spacing: 0.20em;
+}
+
+#eee {
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    text-decoration: none;
+    position: center;
+    margin:5em;
+}
+
+#eee:link{
+  color: #ffffff;
+}
+#eee:visited{
+  color:#eae8eb;
+}
+#eee:hover{
+  letter-spacing: 0.20em;
+}
+
+nav {
+    
+    right: 60px;
+    top: 50px;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.item{
+  position: center;
+  background-size: contain;
+  background-color: #29292b;
+  color:#fff;
+  padding: 10px;
+}
+.item img{
+ transition:0.7s all;
+}
+.item img:hover{
+  transform:scale(1.15,1.15);
+  transition:0.7s all;
+}
+
+.container2{
+  display:flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.item2{
+  position: center;
+  background-size: contain;
+  padding-left: 10px;
+  padding-right: 13px;
+}
+.item2 img{
+  box-shadow: 5px 5px 0px 0 rgb(41, 41, 43);
+  transition:0.7s all;
+}
+.item2 img:hover{
+  transform:scale(1.2,1.2);
+  transition:0.7s all;
+}
+
+.shutter{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#1e1e1e;
+  opacity: 0.7;
+  z-index:9999;
+  animation: byeShutter 6s forwards;
+  
+  &::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+    background-color:#f3f3f3;
+    width:0;
+    height:1px;
+    animation: shutterOpen 7s forwards;
+  }
+}
+
+.co{
+  animation: contentScale 7s forwards;
+}
+
+@keyframes byeShutter{
+  70%{
+    opacity:0.7;
+  }
+  100%{
+    opacity:0;
+    display:none;
+    z-index:-1;
+  }
+}
+
+@keyframes shutterOpen{
+  0%{
+    width:0;
+    height:1px;
+  }
+  50%{
+    width:100%;
+    height:1px;
+  }
+  90%{
+    width:100%;
+    height:100%;
+  }
+  100%{
+    width:100%;
+    height:100%;
+  }
+}
+
+@keyframes coScale{
+  70%{
+    transform:perspective(800px) scale(0.9) rotateX(15deg);
+  }
+  100%{
+    transform:perspective(800px) scale(1) rotateX(0);
+  }
+}
+
+footer {
+  z-index: 90;
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  height: 44px;
+  background: #29292b;
+}
+
+#copyright{
+  color: #ffffff;
+  padding-top:10px;
+  margin:auto;
+  font-size: 13px;
+}
